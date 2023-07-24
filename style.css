@@ -1,0 +1,32 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#tetris{
+    display: flex;
+    text-align: left;
+    background-color: rgb(236, 241, 228);
+    box-shadow: 0 0 100px 2px rgb(209, 152, 216);
+}
+
+body{
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    flex-direction: row-reverse;
+    background-color: whitesmoke;
+    align-items: center
+}
+
+h2 {
+    background-color: black;
+    color: white
+}
+
+.rasm{
+    text-align: right;
+    width: 40vh;
+    height: 70vh;
+}
